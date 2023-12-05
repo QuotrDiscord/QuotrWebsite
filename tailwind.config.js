@@ -5,8 +5,9 @@ module.exports = {
     extend: {
       fontFamily: {
         "julius-sans": ["Julius Sans One"],
+        comfortaa: ["Comfortaa"],
       },
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/container-queries")],
 };

@@ -1,3 +1,7 @@
+import { FeatureCard } from "../home/FeatureCard";
+
+import featureCardData from "../../../data/featureCardData.json";
+
 export const HomePage = () => {
   return (
     <div className='flex w-full bg-gradient-to-r from-fuchsia-950 to-green-950 grow'>
@@ -15,10 +19,16 @@ export const HomePage = () => {
               </button>
             </div>
             <div className='inline-flex items-center justify-center gap-16 max-w-7xl'>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
+              {featureCardData.map((x) => {
+                return (
+                  <FeatureCard
+                    name={x.name}
+                    icon={x.icon}
+                    description={x.icon}
+                    learnMoreUrl={x.icon}
+                  />
+                );
+              })}
             </div>
           </div>
         </div>

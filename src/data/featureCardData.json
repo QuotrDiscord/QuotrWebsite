@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Moderation",
+    "icon": "",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in tempus tellus.",
+    "learnMoreUrl": ""
+  },
+  {
+    "name": "Live Stats",
+    "icon": "",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in tempus tellus.",
+    "learnMoreUrl": ""
+  },
+  {
+    "name": "Public API",
+    "icon": "",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in tempus tellus.",
+    "learnMoreUrl": ""
+  },
+  {
+    "name": "Responsive",
+    "icon": "",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in tempus tellus.",
+    "learnMoreUrl": ""
+  }
+]

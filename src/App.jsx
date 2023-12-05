@@ -1,9 +1,15 @@
 import { createSignal } from "solid-js";
+import { Navbar } from "./components/Navbar";
 
 function App() {
   const [count, setCount] = createSignal(0);
 
-  return <div className='text-3xl'>Hello World</div>;
+  return (
+    <>
+      <Navbar />
+      <div className='h-screen bg-black' />
+    </>
+  );
 }
 
 export default App;

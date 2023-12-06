@@ -6,7 +6,7 @@ import featureCardData from "../data/featureCardData.json";
 export const HomePage = () => {
   return (
     <PageBg>
-      <div className="flex flex-col items-center justify-center gap-24 grow py-14">
+      <div className="flex flex-col items-center justify-center gap-28 grow py-14">
         <div className="flex flex-col items-center gap-5">
           <h1 className="text-transparent text-9xl font-julius-sans bg-gradient-to-r from-violet-600 to-green-600 bg-clip-text">
             Quotr

@@ -1,25 +1,25 @@
 [
   {
     "name": "Moderation",
-    "icon": "",
+    "icon": "/icons/alert-octagon.svg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in tempus tellus.",
     "learnMoreUrl": ""
   },
   {
     "name": "Live Stats",
-    "icon": "",
+    "icon": "/icons/activity.svg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in tempus tellus.",
     "learnMoreUrl": ""
   },
   {
     "name": "Public API",
-    "icon": "",
+    "icon": "/icons/cloud.svg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in tempus tellus.",
     "learnMoreUrl": ""
   },
   {
     "name": "Responsive",
-    "icon": "",
+    "icon": "/icons/zap.svg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in tempus tellus.",
     "learnMoreUrl": ""
   }

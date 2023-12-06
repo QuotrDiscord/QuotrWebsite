@@ -3,24 +3,24 @@
     "name": "Moderation",
     "icon": "/icons/alert-octagon.svg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in tempus tellus.",
-    "learnMoreUrl": ""
+    "learnMoreUrl": "/docs/moderation"
   },
   {
     "name": "Live Stats",
     "icon": "/icons/activity.svg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in tempus tellus.",
-    "learnMoreUrl": ""
+    "learnMoreUrl": "/docs/stats"
   },
   {
     "name": "Public API",
     "icon": "/icons/cloud.svg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in tempus tellus.",
-    "learnMoreUrl": ""
+    "learnMoreUrl": "/docs/api"
   },
   {
     "name": "Responsive",
     "icon": "/icons/zap.svg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in tempus tellus.",
-    "learnMoreUrl": ""
+    "learnMoreUrl": "/docs/api#response"
   }
 ]

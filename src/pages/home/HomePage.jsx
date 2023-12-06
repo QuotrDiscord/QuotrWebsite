@@ -1,6 +1,6 @@
-import { FeatureCard } from "../home/FeatureCard";
+import { FeatureCard } from "../../components/home/FeatureCard";
 
-import featureCardData from "../../../data/featureCardData.json";
+import featureCardData from "../../data/featureCardData.json";
 
 export const HomePage = () => {
   return (

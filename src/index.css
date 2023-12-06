@@ -12,11 +12,11 @@
 
   .main-gradient-light {
     @apply from-violet-600;
-    @apply to-green-600;
+    @apply to-green-500;
   }
 
   .main-gradient-dark {
     @apply from-violet-950;
-    @apply to-green-950;
+    @apply to-green-900;
   }
 }

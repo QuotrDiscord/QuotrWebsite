@@ -11,7 +11,7 @@ function App() {
   const [userId, setUserId] = createSignal("");
 
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className='flex flex-col min-h-screen'>
       <Navbar userId={userId()} />
       <Routes>
         <Route

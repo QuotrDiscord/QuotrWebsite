@@ -7,6 +7,9 @@ module.exports = {
         "julius-sans": ["Julius Sans One"],
         comfortaa: ["Comfortaa"],
       },
+      colors: {
+        discord: "#7289da",
+      },
     },
   },
   plugins: [require("@tailwindcss/container-queries")],

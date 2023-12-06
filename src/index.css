@@ -4,3 +4,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .navbar-active :last-child {
+    @apply scale-x-100;
+  }
+}

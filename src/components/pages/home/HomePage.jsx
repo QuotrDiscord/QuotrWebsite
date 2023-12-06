@@ -26,7 +26,7 @@ export const HomePage = () => {
                   name={x.name}
                   icon={x.icon}
                   description={x.description}
-                  learnMoreUrl={x.icon}
+                  learnMoreUrl={x.learnMoreUrl}
                 />
               );
             })}

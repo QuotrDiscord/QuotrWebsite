@@ -6,8 +6,7 @@ function App() {
   const [count, setCount] = createSignal(0);
 
   return (
-    <div className='flex flex-col min-h-screen'>
-      <Navbar />
+    <div className="flex flex-col min-h-screen">
       <HomePage />
     </div>
   );

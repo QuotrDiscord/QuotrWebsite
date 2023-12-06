@@ -1,9 +1,27 @@
 /* @refresh reload */
-import { render } from 'solid-js/web'
+import { render } from "solid-js/web";
 
-import './index.css'
-import App from './App'
+import "./index.css";
+import { Router, Route, Routes } from "@solidjs/router";
+import { lazy } from "solid-js";
 
-const root = document.getElementById('root')
+import { Navbar } from "./components/Navbar/Navbar";
 
-render(() => <App />, root)
+const root = document.getElementById("root");
+
+const App = lazy(() => import("./App"));
+
+render(
+  () => (
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path={"/"} component={App} />
+        <Route path={"/dash"} component={App} />
+        <Route path={"/docs"} component={App} />
+        <Route path={"/about"} component={App} />
+      </Routes>
+    </Router>
+  ),
+  root
+);

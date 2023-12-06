@@ -1,7 +1,7 @@
 import { Router, Route, Routes } from "@solidjs/router";
 
 import { Navbar } from "./components/Navbar/Navbar";
-import { HomePage } from "./pages/home/HomePage";
+import { HomePage } from "./pages/HomePage";
 import { Show, createSignal } from "solid-js";
 
 function App() {

@@ -9,4 +9,14 @@
   .navbar-active :last-child {
     @apply scale-x-100;
   }
+
+  .main-gradient-light {
+    @apply from-violet-600;
+    @apply to-green-600;
+  }
+
+  .main-gradient-dark {
+    @apply from-violet-950;
+    @apply to-green-950;
+  }
 }

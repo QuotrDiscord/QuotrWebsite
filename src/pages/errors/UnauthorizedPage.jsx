@@ -14,7 +14,7 @@ export const UnauthorizedPage = () => {
           <p>Looks like something went wrong!</p>
         </div>
         <div className="text-center">
-          <p>You can't access this page</p>
+          <p>You aren't allowed to access the following page:</p>
           <p>{location.pathname}</p>
         </div>
         <div className="grow" />

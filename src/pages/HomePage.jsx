@@ -12,7 +12,7 @@ export const HomePage = () => {
             Quotr
           </h1>
           <div className="p-1 transition-all group hover:-translate-y-0.5 hover:shadow-2xl w-min rounded-xl bg-gradient-to-r from-violet-600 to-green-600">
-            <button className="p-6 transition-all rounded-lg bg-neutral-900 ">
+            <button className="p-5 transition-all rounded-lg bg-neutral-900 ">
               <p className="text-4xl font-bold leading-none text-white transition-colors font-comfortaa whitespace-nowrap">
                 Get Started
               </p>

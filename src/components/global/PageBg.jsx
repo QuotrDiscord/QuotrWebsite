@@ -1,5 +1,3 @@
-import { children } from "solid-js";
-
 export const PageBg = ({ children }) => {
   return (
     <div className="flex w-full main-gradient-dark grow bg-gradient-to-b lg:bg-gradient-to-r">

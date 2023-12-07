@@ -1,4 +1,3 @@
-import { Navbar } from "../components/Navbar/Navbar";
 import { PageBg } from "../components/global/PageBg";
 import { FeatureCard } from "../components/home/FeatureCard";
 

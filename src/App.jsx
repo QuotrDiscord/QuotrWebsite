@@ -1,5 +1,5 @@
 import { Route, Routes } from "@solidjs/router";
-import { Show, createSignal, lazy } from "solid-js";
+import { Show, createSignal } from "solid-js";
 
 import { Navbar } from "./components/Navbar/Navbar";
 import { HomePage } from "./pages/HomePage";
@@ -11,7 +11,7 @@ function App() {
   const [userId, setUserId] = createSignal("");
 
   return (
-    <div className='flex flex-col min-h-screen'>
+    <div className="flex flex-col min-h-screen">
       <Navbar userId={userId()} />
       <Routes>
         <Route

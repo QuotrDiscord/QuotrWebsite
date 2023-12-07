@@ -6,6 +6,7 @@ import { HomePage } from "./pages/HomePage";
 import { NotFoundPage } from "./pages/errors/NotFoundPage";
 import { UnauthorizedPage } from "./pages/errors/UnauthorizedPage";
 import { DocumentationPage } from "./pages/DocumentationPage";
+import { AboutPage } from "./pages/AboutPage";
 
 function App() {
   const [userId, setUserId] = createSignal("");
@@ -25,7 +26,7 @@ function App() {
           <Route path={"/s/:query"} component={DocumentationPage} />
           <Route path={"/"} component={DocumentationPage} />
         </Route>
-        <Route path={"/about"} component={HomePage} />
+        <Route path={"/about"} component={AboutPage} />
         <Route path={"*"} component={NotFoundPage} />
       </Routes>
     </div>

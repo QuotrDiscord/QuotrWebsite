@@ -21,7 +21,10 @@ function App() {
         >
           <Route path={"/dash"} component={HomePage} />;
         </Show>
-        <Route path={"/docs"} component={DocumentationPage} />
+        <Route path={"/docs"}>
+          <Route path={"/s/:query"} component={DocumentationPage} />
+          <Route path={"/"} component={DocumentationPage} />
+        </Route>
         <Route path={"/about"} component={HomePage} />
         <Route path={"*"} component={NotFoundPage} />
       </Routes>

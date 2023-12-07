@@ -1,6 +1,7 @@
 import { Route, Routes } from "@solidjs/router";
 import { Show, createSignal } from "solid-js";
 
+import { Navbar } from "./components/Navbar/Navbar";
 import { HomePage } from "./pages/HomePage";
 import { NotFoundPage } from "./pages/errors/NotFoundPage";
 import { UnauthorizedPage } from "./pages/errors/UnauthorizedPage";
@@ -11,12 +12,9 @@ function App() {
 
   return (
     <div className="flex flex-col min-h-screen">
+      <Navbar userId={userId()} />
       <Routes>
-        <Route
-          path={"/"}
-          data={userId}
-          component={<HomePage userId={userId()} />}
-        />
+        <Route path={"/"} component={HomePage} />
         <Show
           when={userId() !== ""}
           fallback={<Route path={"/dash"} component={UnauthorizedPage} />}

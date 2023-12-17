@@ -1,3 +1,4 @@
+import { A } from "@solidjs/router";
 import { PageBg } from "../components/global/PageBg";
 import { FeatureCard } from "../components/home/FeatureCard";
 
@@ -12,12 +13,17 @@ export const HomePage = () => {
             Quotr
           </h1>
           <div className="p-1 transition-all group hover:-translate-y-0.5 hover:shadow-2xl main-gradient-light w-fit rounded-xl bg-gradient-to-r hover:from-transparent hover:to-transparent hover:bg-discord">
-            <button className="flex flex-row items-center gap-5 p-5 transition-transform rounded-lg bg-neutral-900 hover:bg-transparent">
+            <A
+              className="flex flex-row items-center gap-5 p-5 transition-transform rounded-lg bg-neutral-900 hover:bg-transparent"
+              href={
+                "https://discord.com/api/oauth2/authorize?client_id=1185837827548794921&response_type=code&redirect_uri=https%3A%2F%2Fquotr.jsmarier.com%2F&scope=identify+guilds"
+              }
+            >
               <img src="/icons/discord.svg" />
               <p className="text-4xl font-bold leading-none text-white transition-colors font-comfortaa whitespace-nowrap">
                 Sign In
               </p>
-            </button>
+            </A>
           </div>
         </div>
         <ul className="inline-flex items-center justify-center gap-16 max-w-[100rem] px-10 flex-wrap">

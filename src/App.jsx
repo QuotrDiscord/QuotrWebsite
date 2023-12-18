@@ -7,6 +7,7 @@ import { NotFoundPage } from "./pages/errors/NotFoundPage";
 import { UnauthorizedPage } from "./pages/errors/UnauthorizedPage";
 import { DocumentationPage } from "./pages/DocumentationPage";
 import { AboutPage } from "./pages/AboutPage";
+import { Login } from "./pages/Login";
 
 function App() {
   const [userId, setUserId] = createSignal("");
@@ -16,6 +17,7 @@ function App() {
       <Navbar userId={userId()} />
       <Routes>
         <Route path={"/"} component={HomePage} />
+        <Route path={"/login"} component={Login} />
         <Show
           when={userId() !== ""}
           fallback={<Route path={"/dash"} component={UnauthorizedPage} />}
